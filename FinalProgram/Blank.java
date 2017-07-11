@@ -1,1 +1,0 @@
-//it'll compilr bcoz compiler checks syntex but .class file wont genrate also there is no class
