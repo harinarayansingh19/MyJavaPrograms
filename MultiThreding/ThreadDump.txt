@@ -1,0 +1,17 @@
+Thread dump can be known by thread id
+to know thread id type jps -l in command prompt (Windows)
+
+1628 Test					(Test is my Main class in my program)
+4044 sun.tool.jps.Jps
+
+find the your main class name id which will be ur thread id
+
+so my thread id is = 1628
+
+type   =>>     jstack 1628
+willl print everything about that program
+
+
+
+to save that logs
+type  ==>>   jstack 1628 >> filename
